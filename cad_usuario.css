@@ -11,36 +11,54 @@ body {
 
 h1 {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 50px;
 }
-a{
-    padding: 6px 70px 6px 70px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 7px;
-    text-decoration: none;
-    color: white;
+
+.cpf {
+    margin-right: 18px;
 }
 
-a:hover{
-    background-color: cadetblue;
+.telefone{
+    margin-right: 6px;
 }
 
 .form {
+    margin: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: burlywood;
+    
 }
 
-form {
-    margin-top: 20px;
+form a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px 70px 8px 70px;
+    border-radius: 5px;
 }
 
-input {
-    padding:8px;
-    border-radius: 8px;
+form a:hover{
+    background-color: cadetblue;
+    color: black;
+    transition: all 0.5s;
+}
+
+.inputcamp {
+    padding: 8px;
+    border-radius: 5px;
     text-align: center;
-    background-color: gainsboro;
+    background-color: darkslategray;
+    color: white;
+}
+
+.inputcamp::-webkit-input-placeholder {
+    color: white;
+}
+
+.btn{
+    padding: 8px;
+    border-radius: 5px;
 }
